@@ -8,8 +8,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    padding: 5%;
-    background-image: linear-gradient(rgba(0, 8, 51, 0.9), rgba(0, 8, 51, 0.9));
+    padding: 6%;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -57,12 +56,17 @@
     cursor: pointer;
 }
 
-.container-1{
+.container-1 {
     float: right;
     margin-right: 150px;
     text-decoration: none;
+    margin-top: 18px;
 }
-.container-1,a{
+
+.container-1
+ a {
     margin-left: 25px;
     text-decoration: none;
+    color: white;
+    
 }
